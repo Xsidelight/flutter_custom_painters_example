@@ -141,7 +141,8 @@ class HomeWidget extends StatelessWidget {
               width: 300,
               height: 200,
               decoration: BoxDecoration(
-                  border: Border.all(color: Colors.blue), color: Colors.deepPurple),
+                  border: Border.all(color: Colors.blue),
+                  color: Colors.deepPurple),
               child: CustomPaint(
                 // size: Size(300, 300),
                 painter: CustomGraph(),

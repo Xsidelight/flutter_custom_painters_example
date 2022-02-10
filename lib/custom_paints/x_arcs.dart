@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-
 /*
 The rect is what the full oval would be inscribed within.
 The startAngle is the location on the oval that the line starts drawing from. An angle of 0 is at the right side. Angles are in radians, not degrees. The top is at 3π/2 (or -π/2), the left at π, and the bottom at π/2.
@@ -13,10 +12,13 @@ class MyArcsPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final rect = Rect.fromLTRB(50, 100, 250, 200);
-    final startAngle = -math.pi/2;
+    final startAngle = -math.pi / 2;
     final sweepAngle = math.pi;
     final useCenter = false;
-    final paint = Paint()..color = Colors.black..strokeWidth = 4..style = PaintingStyle.stroke;
+    final paint = Paint()
+      ..color = Colors.black
+      ..strokeWidth = 4
+      ..style = PaintingStyle.stroke;
     canvas.drawArc(rect, startAngle, sweepAngle, useCenter, paint);
   }
 

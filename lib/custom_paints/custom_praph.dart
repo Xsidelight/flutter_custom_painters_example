@@ -11,7 +11,9 @@ class CustomGraph extends CustomPainter {
     final p6 = Offset(300, 100);
     final p7 = Offset(0, 150);
     final p8 = Offset(300, 150);
-    final paint = Paint()..color = Colors.white..strokeWidth = 0.5;
+    final paint = Paint()
+      ..color = Colors.white
+      ..strokeWidth = 0.5;
     canvas.drawLine(p1, p2, paint);
     canvas.drawLine(p3, p4, paint);
     canvas.drawLine(p5, p6, paint);
@@ -29,24 +31,19 @@ class CustomGraph extends CustomPainter {
     final p18 = Offset(250, 90);
     final p19 = Offset(250, 90);
     final p20 = Offset(300, 130);
-    final paint2 = Paint()..color = Colors.white..strokeWidth = 2;
+    final paint2 = Paint()
+      ..color = Colors.white
+      ..strokeWidth = 2;
     canvas.drawLine(p9, p10, paint2);
     canvas.drawLine(p11, p12, paint2);
     canvas.drawLine(p13, p14, paint2);
     canvas.drawLine(p15, p16, paint2);
     canvas.drawLine(p17, p18, paint2);
     canvas.drawLine(p19, p20, paint2);
-
-
-
-
-
-
   }
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) {
     return false;
   }
-
 }

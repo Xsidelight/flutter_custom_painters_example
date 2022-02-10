@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
 
-
 class MyTextPainterLowLvlApproach extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
