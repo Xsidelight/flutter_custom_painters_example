@@ -1,6 +1,5 @@
 # paint_ex
 
-A new Flutter project.
 
 ## Getting Started
 
