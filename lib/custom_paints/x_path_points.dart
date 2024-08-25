@@ -24,7 +24,6 @@ class MyPathWithPointsPainter extends CustomPainter {
     final points = [
       Offset(50, 50),
       Offset(200, 200),
-      Offset(200, 0),
       Offset(150, 100),
     ];
     final paint2 = Paint()
